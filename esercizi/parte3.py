@@ -1,6 +1,6 @@
 def sum_csv(file_name):
     somma=0
-    my_file=open(file_name)
+    my_file=open(file_name,'r')
     for line in my_file:
         if(len(line)==0):
             continue
@@ -9,7 +9,5 @@ def sum_csv(file_name):
             if(elements[0]!='Date'):
                 somma+=float(elements[1])
     return somma
-
-
 #Test utilizzo
-print(sum_csv('shampo_sales.csv'))
+#print(sum_csv('shampo_sales.csv'))
