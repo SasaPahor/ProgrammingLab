@@ -1,4 +1,4 @@
-def sum_csv(file_name):
+def somma(file_name):
     somma=0
     my_file=open(file_name)
     for line in my_file:
