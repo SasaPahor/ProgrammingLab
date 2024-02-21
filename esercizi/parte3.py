@@ -9,3 +9,7 @@ def sum_csv(file_name):
             if(elements[0]!='Date'):
                 somma+=float(elements[1])
     return somma
+
+
+#Test utilizzo
+print(sum_csv('shampo_sales.csv'))
