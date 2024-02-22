@@ -3,6 +3,7 @@ class CSVFile:
     #Metodo di istanziazione dell' oggetto
     def __init__(self,file_name):
         self.name=file_name
+    
     #Funzione che torna la lista di liste dei dati del file CSV
     def get_data(self):
         #Creo una lista vuota
